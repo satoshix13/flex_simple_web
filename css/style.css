@@ -1,0 +1,266 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding-top: 10px;
+}
+
+/* **Helper class** */
+
+.bg-dark {
+  background-color: #333;
+}
+
+.btn {
+  padding: 15px;
+  border-radius:10px;
+  color: white;
+
+}
+
+
+.ygreen {
+  color: yellowgreen;
+}
+
+.bg-ygreen{
+  background: yellowgreen;
+}
+
+
+.clear {
+  clear: both;
+}
+
+/* ***Header*** */
+
+header {
+  height: 6vh;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+}
+
+.navigation {
+  float: right;
+}
+
+ul {
+  display: flex;
+  float: right;
+ 
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
+}
+
+li a{
+  color: white;
+}
+
+
+/* ***Showcase**** */
+
+#showcase {
+  height: 70vh;
+  background-image: url(../img/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#showcase div{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+#showcase h1{
+  font-size: 4em;
+}
+
+#showcase p{
+  padding: 2em;
+  margin-bottom: 1.5em;
+}
+
+/* ***What we do*** */
+
+#wwd {
+  background-color: lightgray;
+  height: 30vh;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.container h1{
+  padding-top: 0.5em;
+  font-size: 3em;
+  text-align: center;
+}
+
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box h3{
+  text-align: center;
+  padding: 1.5em;
+}
+
+
+
+
+/* ****Info section***** */
+
+#wwa {
+  height: 50vh;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+
+.info-image {
+  background: url(../img/people.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+.info-article {
+  width: 50%;
+  text-align: left;
+  color: white;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.info-article h4,
+.info-article p {
+    padding: 1em;
+}
+
+
+
+/* ***Client Container*** */
+
+.client-container h1{
+  text-align: center;
+  font-size: 3em;
+  padding: 1em;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-logo{
+  padding: 1em;
+}
+
+.client-logo img {
+  width: 60%;
+}
+
+/* ***Form section*** */
+
+#form-section {
+  height: 70vh;
+  display: flex;
+}
+
+
+
+.form-wrap {
+  flex-basis: 40%;
+  color: white;
+
+
+}
+
+.form-wrap h1,
+.form-wrap p{
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.form-group{
+  padding: 0.5em;
+  margin-top: 30px;
+  
+}
+
+.form-group label{
+  display: block;
+  margin-left: 20px;
+}
+
+.form-group input{
+  width: 90%;
+  height: 40px;
+  margin-left: 20px;
+}
+
+button {
+  width: 90%;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.map {
+  flex-basis: 60%;
+  background: url('../img/map.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/* ***Footer**** */
+footer {
+  height: 4em;
+  color: white;
+  text-align: center;
+}
+
+footer p{
+  padding: 1em;
+}
